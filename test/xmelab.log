@@ -1,0 +1,26 @@
+xmelab(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	23.03-s013: Started on Oct 18, 2024 at 09:39:02 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_MUX_12X2
+
+	Elaborating the design hierarchy:
+		Caching library 'MUX_12X2_lib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		MUX_12X2_lib.tb_MUX_12X2:module <0x038b820f>
+			streams:  14, words: 17140
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Primitives:             14       3
+		Registers:              12      12
+		Scalar wires:           12       -
+		Initial blocks:          1       1
+		Pseudo assignments:     12       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: MUX_12X2_lib.tb_MUX_12X2:module
+TOOL:	xmelab(64)	23.03-s013: Exiting on Oct 18, 2024 at 09:39:02 KST  (total: 00:00:00)

@@ -1,0 +1,23 @@
+xmelab(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	23.03-s013: Started on Oct 01, 2024 at 21:03:45 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_sn74ls11
+
+	Elaborating the design hierarchy:
+		Caching library 'Homework_lib' ....... Done
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 5       3
+		Primitives:              3       1
+		Registers:               9       9
+		Scalar wires:            9       -
+		Initial blocks:          1       1
+		Pseudo assignments:      9       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: Homework_lib.tb_sn74ls11:module
+TOOL:	xmelab(64)	23.03-s013: Exiting on Oct 01, 2024 at 21:03:45 KST  (total: 00:00:00)

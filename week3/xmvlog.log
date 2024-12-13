@@ -1,0 +1,19 @@
+xmvlog(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	23.03-s013: Started on Oct 01, 2024 at 20:56:25 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./AND3X1.v
+    ./SN74LS11.v
+    ./tb_sn74ls11.v
+
+file: ./AND3X1.v
+	module Homework_lib.AND3X1
+		errors: 0, warnings: 0
+file: ./SN74LS11.v
+	module Homework_lib.SN74LS11
+		errors: 0, warnings: 0
+file: ./tb_sn74ls11.v
+	module Homework_lib.tb_sn74ls11
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	23.03-s013: Exiting on Oct 01, 2024 at 20:56:25 KST  (total: 00:00:00)

@@ -1,0 +1,26 @@
+xmsim(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmsim(64)	23.03-s013: Started on Oct 25, 2024 at 10:46:10 KST
+xmsim
+    -MESS
+    tb_sn54ls32
+    -gui
+
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_sn54ls32.i_1A tb_sn54ls32.i_1B tb_sn54ls32.i_2A tb_sn54ls32.i_2B tb_sn54ls32.i_3A tb_sn54ls32.i_3B tb_sn54ls32.i_4A tb_sn54ls32.i_4B tb_sn54ls32.o_1Y tb_sn54ls32.o_2Y tb_sn54ls32.o_3Y tb_sn54ls32.o_4Y
+Created probe 1
+xcelium> run
+$time=10nso_1Y= 1o_2Y= 1o_3Y= 1o_4Y= 1i_1A= 1i_1B= 1i_2A= 1i_2B= 1i_3A= 1i_3B= 1i_4A= 1i_4B= 1
+$time=20nso_1Y= 1o_2Y= 1o_3Y= 1o_4Y= 1i_1A= 1i_1B= 0i_2A= 1i_2B= 0i_3A= 1i_3B= 0i_4A= 1i_4B= 0
+$time=30nso_1Y= 1o_2Y= 1o_3Y= 1o_4Y= 1i_1A= 0i_1B= 1i_2A= 0i_2B= 1i_3A= 0i_3B= 1i_4A= 0i_4B= 1
+$time=40nso_1Y= 0o_2Y= 0o_3Y= 0o_4Y= 0i_1A= 0i_1B= 0i_2A= 0i_2B= 0i_3A= 0i_3B= 0i_4A= 0i_4B= 0
+Simulation complete via $finish(1) at time 40 NS + 0
+./tb_sn54ls32.v:52 	$finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xmsim(64)	23.03-s013: Exiting on Oct 25, 2024 at 10:47:05 KST  (total: 00:00:55)

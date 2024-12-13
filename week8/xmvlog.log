@@ -1,0 +1,15 @@
+xmvlog(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	23.03-s013: Started on Oct 18, 2024 at 10:41:35 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./clk_gating.v
+    ./tb_clk_gating.v
+
+file: ./clk_gating.v
+	module worklib.clk_gating
+		errors: 0, warnings: 0
+file: ./tb_clk_gating.v
+	module worklib.tb_clk_gating
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	23.03-s013: Exiting on Oct 18, 2024 at 10:41:35 KST  (total: 00:00:00)

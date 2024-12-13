@@ -1,0 +1,26 @@
+clean:
+	rm -rf *.log *.history *.key
+	rm -rf *.lib *.var
+	rm -rf *.lib *.shm
+	rm -rf SN54LS32_lib
+	
+Set: 
+	mkdir SN54LS32_lib
+	touch cds.lib
+	touch hdl.var
+	chmod +x cds.lib
+	chmod +x hdl.var
+	echo "define SN54LS32_lib sn54ls32.lib" >> cds.lib
+	echo "define WORK SN54LS32_lib" >> hdl.var
+
+Compile: 
+	xmvlog -MESS -linedebug SN54LS32
+	xmvlog -MESS -linedebug tb_sn54ls32
+
+Elab:
+	xmelab -MESS -access rwc tb_sn54ls32
+
+Sim:
+	xmsim -MESS tb_sn54ls32 -gui
+
+All: Set Compile Elab Sim

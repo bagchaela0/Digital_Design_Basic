@@ -1,0 +1,13 @@
+xmelab(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	23.03-s013: Started on Oct 10, 2024 at 21:45:37 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_mux_8x2
+
+	Elaborating the design hierarchy:
+		Caching library 'mux_8x2_lib' ....... Done
+	in4= 1; in5= 0; in6= 0; in7= 0; e1= 0; e2= 0; #10; display;
+	                                                         |
+xmelab: *E,CUVHNF (./tb_mux_8x2.v,53|58): Hierarchical name component lookup failed at 'display'.
+TOOL:	xmelab(64)	23.03-s013: Exiting on Oct 10, 2024 at 21:45:37 KST  (total: 00:00:00)

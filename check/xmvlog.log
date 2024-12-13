@@ -1,0 +1,11 @@
+xmvlog(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	23.03-s013: Started on Oct 25, 2024 at 10:46:10 KST
+xmvlog
+    -MESS
+    -linedebug
+    tb_sn54ls32
+
+file: tb_sn54ls32.v
+	module sn54ls32_lib.tb_sn54ls32
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	23.03-s013: Exiting on Oct 25, 2024 at 10:46:10 KST  (total: 00:00:00)

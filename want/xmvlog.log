@@ -1,0 +1,15 @@
+xmvlog(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	23.03-s013: Started on Nov 21, 2024 at 21:45:32 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./mux4x1.v
+    ./tb_mux4x1.v
+
+file: ./mux4x1.v
+	module mux4x1_lib.mux4x1
+		errors: 0, warnings: 0
+file: ./tb_mux4x1.v
+	module mux4x1_lib.tb_mux4x1
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	23.03-s013: Exiting on Nov 21, 2024 at 21:45:32 KST  (total: 00:00:00)

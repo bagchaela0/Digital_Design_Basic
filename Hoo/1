@@ -1,0 +1,22 @@
+clean : 
+	rm -rf cds.lib hdl.var *.shm *.log *.key *.lib
+
+set :
+	mkdir counter.lib
+	touch cds.lib
+	touch hdl.var
+	chmod +x cds.lib
+	chmod +x hdl.var
+	echo"define counter_lib counter.lib" << ./cds.lib
+	echo"define WORK counter.lib" <<./hdl.var
+
+compile :
+	xmvlog -MESS -linedebug ./*.v
+
+elab :
+	xmelab -MESS -access +rwc tb_counter
+
+sim :
+	xmsim -MESS tb_counter -gui
+
+all : clean set compile elab sim
